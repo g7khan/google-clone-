@@ -1,0 +1,233 @@
+*{
+    padding: 0px;
+    box-sizing: border-box;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.logo img{
+    height: 113px;
+    width: 21%;
+    display: block;
+    margin: auto;
+     position: relative;
+     top: 90px;    
+ 
+  
+}
+
+.img-icon ul{
+
+  display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    /* border: 1px solid black; */
+    width: 20%;
+    position: relative;
+    left: 73%;
+    top: -283px;
+    
+}
+.img-icon i{
+    font-size: 20px;
+}
+.img-icon a{
+ color: #515050;
+ text-decoration: none;
+ font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+
+.owais img{
+
+ height: 38px;
+ width: 40px;
+ border-radius: 30px;
+ float: inline-end;
+ position: relative;
+ top: -316px;
+ right: 59px;
+
+}
+
+/* search */
+
+.search-container {
+    width: 400px;
+    margin: 50px auto;
+    position: relative;
+    top: 70px;
+  }
+  
+  /* Style for the search form */
+  .search-form {
+    position: relative;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    overflow: hidden;
+  }
+  
+  /* Style for the search input */
+  .search-input {
+    width: 100%;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+  }
+  
+  /* Style for the search button */
+  .search-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 70px;
+    background-color: #f8f9fa;
+    border: none;
+    border-left: 1px solid #dfe1e5;
+    cursor: pointer;
+  }
+  
+  /* Style for the search button icon */
+  .search-icon {
+    width: 24px;
+    height: 24px;
+    margin: auto;
+    fill: #4285f4;
+  }
+
+
+
+
+.btn{
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 1px solid black; */
+    width: 35%;
+    
+}
+.btn p{
+    background-color: #f4f4f4;
+    padding: 20px;
+    height: -1px;
+    width: 164px;
+    cursor: pointer;
+    position: relative;
+    top: 46px;  
+    left: 409px; 
+    transition: all .40s;
+}
+.btn a{
+    background-color: #f4f4f4;
+    padding: 20px;
+    height: -1px;
+    width: 170px;
+    cursor: pointer;
+    position: relative;
+    top: 46px;  
+    left: 393px; 
+    transition: all .40s;
+}
+.btn a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.btn p:hover{
+    border: 1px solid #c8c6c6;
+    transform: scale(0.9);
+}
+
+.btn a:hover{
+    border: 1px solid #c8c6c6;
+    transform: scale(0.9);
+}
+
+
+
+
+.last ul{
+
+    background-color: #f2f2f2;
+    position: relative;
+    top: 122px;
+    padding: 20px;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 100px;
+    
+}
+
+.last a{
+    text-decoration: none;
+ color: black;
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .search-container {
+        width: 90%;
+    }
+         .logo img{
+            width: 55%;
+        
+         }
+         .owais img{
+
+            margin-right: 180px;
+         }
+         .img-icon{
+            margin-right: 120px;
+         }
+        .img-icon a{
+               padding-right: 20px;
+                    } 
+
+      .pakistan{
+        text-align: center;
+        flex-direction: column;
+    
+      }
+    
+       .last ul{
+        text-align: center;
+        flex-direction: column;
+       height: 300px;
+       
+    
+       }
+
+
+
+    .btn {
+        width: 90%;
+    }
+
+    .btn p,
+    .btn a {
+        width: 100%;
+        left: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
